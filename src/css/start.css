@@ -1,0 +1,35 @@
+body{
+  display: block;
+  
+}
+
+.box_img_src{
+  width: 500px;
+  margin-top: 20px;
+}
+
+.box_text{
+  margin-top: 45px;
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+.box_input{
+  border-radius: 20px;
+  width: 280px;
+  height: 50px;
+  border:3px solid #3DB9FF;
+  margin-bottom: 40px;
+
+}
+
+.box_btn{
+  text-align: center;
+}
+
+.box_btn_input{
+  border-radius: 30px;
+  width:200px;
+  height: 30px;
+}

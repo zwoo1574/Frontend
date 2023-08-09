@@ -2,13 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Start from './start'
+import Start from './page/start'
+import Main from './page/main'
+import "./font/font.css"
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(
+  document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Start/>
-    <App />
+    
+    
   </React.StrictMode>
 );
 
