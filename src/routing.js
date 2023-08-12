@@ -5,11 +5,11 @@ import Main from './page/main'
 
 function routing() {
     return (
-      <div className="ldex.js">
+      <div >
           <BrowserRouter>
             <Routes>
+                 <Route path="/" element={<Start/>}></Route>
                   <Route path='main' element={<Main/>}></Route>
-                  <Route path="start" element={<Start/>}></Route>
             </Routes>
           </BrowserRouter>
       </div>
