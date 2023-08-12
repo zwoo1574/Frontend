@@ -16,7 +16,7 @@ function Main(){
                         <div className='ac1'>
                             <div className='top'> Trust#</div>
                             <div className='sc1'> 다른 기업들의 홍보 방식을 <br></br>
-                                단어, 영상, 색 다양한 방식으로 <span className='a'> # 분석 </span>
+                                단어, 영상, 색 다양한 방식으로 <span className='a'> #분석  </span>
                                 <br></br>
                                 {/* 더보기 펼쳐지도록 하얀 작은 박스를 스크롤 할 수 있도록 */}
                                 {/* 더보기 생략 부분 */}
@@ -32,7 +32,7 @@ function Main(){
                         </div>
                         <div className='ac2'>
                             <div className='sc2'> 사용자의 <span className='a'>
-                                # 분석 </span></div>
+                                #분석  </span></div>
                                 {/* sc4 */}
                             <div className='bt_box'>
                                 {/* flex로 정렬 */}
@@ -41,7 +41,7 @@ function Main(){
                                     <div className='text'># 1 </div>
                                     <div className='text_top'> 연령별 분석 보기</div>
                                     <div className='text_bot'>연령별 소비를 분석하여 <br></br>제공합니다. </div>
-                                    <div>
+                                    <div className='text_inner'>
                                         <div>더 보기 </div>
                                         <div> <FontAwesomeIcon icon={faArrowRightToBracket} /></div>
                                     </div>

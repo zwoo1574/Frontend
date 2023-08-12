@@ -1,5 +1,6 @@
 import '../css/start.css';
 import logo from '../img/logo.png'
+import React, { useState } from 'react';
 
 
 // 번호키 확인 
@@ -14,6 +15,13 @@ import logo from '../img/logo.png'
   //   return false;
   // };
 
+  // const MainPage = ()=>{}
+  //   const navigate = useNavigate ();
+
+  //   const navigateToPurchase = () =>{
+  //     navigate('/purchase');
+  //   }
+      
 
 
 function Start (){
@@ -28,13 +36,18 @@ function Start (){
         </div>
         <div >
           <input className='box_input' type='text' placeholder='사업자 번호 입력'
-          //  onKeyPress={'return CheckNumber(event)'}
-           ></input>
+          // //  onKeyPress={'return CheckNumber(event)'}
+          //       value={text}
+          //       onChange={(e)=>setText(e.target.value)}
+           />
         </div>
         <div className='box_btn'>
-          <form>
-            <input className='box_btn_input' type="button" value={'시작'} ></input>
-          </form>
+          <button className='btn' type='button'  
+          // onClick= {navigateToPurchase}
+           hre>
+            시작
+          </button>
+          
         </div>
       </div>
     </body>
